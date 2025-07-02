@@ -1,14 +1,20 @@
 
 import Link from 'next/link'
+import Hero from './component/Hero'
+import Camp from './component/Camp'
+import Guide from './component/Guide'
+import Features from './component/Features'
+import GetApp from './component/GetApp'
 
 
 export default function Home() {
   return (
-    <main >
-     
-
-
-<div className='font-bold bg-red text-xl text-teal-100'> WHy everything is not visible</div>
-    </main>
+   <>  
+   <Hero/>
+   <Camp/>
+   <Guide/>
+   <Features/>
+   <GetApp/>
+   </>
   )
 }
